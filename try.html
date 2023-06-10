@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body{
+            font-family: Arial;
+            font-weight: bold;
+        }
+        .gif{
+          
+           display: block;
+           margin-left:auto ;
+           margin-right: auto;
+           width: 50%;
+        }
+        .yes{
+            display: inline-block;
+        }
+        .yesbox
+        {
+            align-items: center;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+
+        }
+        .nobox{
+            font-family: Arial;
+            padding: 5px 5px 5px 5px;
+        }
+        .nobox:hover{
+            margin-left: 20%;
+            margin-top: 60% ;
+            margin-right: -10px;
+        }
+        .nobox:active{
+            margin: 20% 30% 40% 60%;
+
+        }
+        .no{
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+        <img src="juno-michael-cera.gif" class="gif">
+        <div class="yesbox">
+        <p class="yes">Click yes if you are interested</p>
+        <button onclick="myfunc()"
+        style="font-family: Arial;
+        ">YES</button>
+        <p class="no">If you dont wan't to click this</p>
+        <button class="nobox">NO</button>
+        <script>
+            function myfunc() {
+              alert("Love you specify date and time in whatsapp");
+            }
+            </script>
+    </div>
+
+</body>
+</html>
